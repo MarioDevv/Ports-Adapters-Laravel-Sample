@@ -1,0 +1,604 @@
+[2023-12-04 20:39:08] local.ERROR: Declaration of Src\User\Infrastructure\Repository\EloquentUserRepository::createUser(Src\User\Domain\User $user): void must be compatible with Src\User\Domain\Contract\UserRepositoryContract::createUser(Src\User\Domain\User $user): Src\User\Domain\User {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of Src\\User\\Infrastructure\\Repository\\EloquentUserRepository::createUser(Src\\User\\Domain\\User $user): void must be compatible with Src\\User\\Domain\\Contract\\UserRepositoryContract::createUser(Src\\User\\Domain\\User $user): Src\\User\\Domain\\User at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\src\\User\\Infrastructure\\Repository\\EloquentUserRepository.php:38)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-04 20:39:09] local.ERROR: Declaration of Src\User\Infrastructure\Repository\EloquentUserRepository::createUser(Src\User\Domain\User $user): void must be compatible with Src\User\Domain\Contract\UserRepositoryContract::createUser(Src\User\Domain\User $user): Src\User\Domain\User {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of Src\\User\\Infrastructure\\Repository\\EloquentUserRepository::createUser(Src\\User\\Domain\\User $user): void must be compatible with Src\\User\\Domain\\Contract\\UserRepositoryContract::createUser(Src\\User\\Domain\\User $user): Src\\User\\Domain\\User at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\src\\User\\Infrastructure\\Repository\\EloquentUserRepository.php:38)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-04 20:39:30] local.ERROR: Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. {"view":{"view":"C:\\xampp\\htdocs\\hexagonal-laravel-crud\\resources\\views\\welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1293756217 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#269</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1293756217\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","users":"<pre class=sf-dump id=sf-dump-1026280390 data-indent-pad=\"  \"><span class=sf-dump-note>array:5</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Mario</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"18 characters\">enos87@example.com</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:31:26.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>1</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Mathew Runte</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"20 characters\">luther94@example.com</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>2</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>4</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Prof. Kolby Gorczany</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"25 characters\">carter.hansen@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>3</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"13 characters\">Romaine Beier</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"24 characters\">emmie.wunsch@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>4</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Julian Schroeder</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"28 characters\">mayert.gabrielle@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1026280390\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters(Object(Illuminate\\Routing\\Route), Array)
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(502): Illuminate\\Routing\\RouteUrlGenerator->to(Object(Illuminate\\Routing\\Route), Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(471): Illuminate\\Routing\\UrlGenerator->toRoute(Object(Illuminate\\Routing\\Route), Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('user.create', Array, true)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\resources\\views\\welcome.blade.php(21): route('user.create')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\xampp\\\\htdocs...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp\\\\htdocs...', Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp\\\\htdocs...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#57 {main}
+
+[previous exception] [object] (Illuminate\\Routing\\Exceptions\\UrlGenerationException(code: 0): Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters(Object(Illuminate\\Routing\\Route), Array)
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(502): Illuminate\\Routing\\RouteUrlGenerator->to(Object(Illuminate\\Routing\\Route), Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(471): Illuminate\\Routing\\UrlGenerator->toRoute(Object(Illuminate\\Routing\\Route), Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('user.create', Array, true)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\storage\\framework\\views\\7d78b398c97892dc73ae50ab29790f00.php(21): route('user.create')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\xampp\\\\htdocs...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp\\\\htdocs...', Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp\\\\htdocs...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#57 {main}
+"} 
+[2023-12-04 20:39:49] local.ERROR: Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. {"view":{"view":"C:\\xampp\\htdocs\\hexagonal-laravel-crud\\resources\\views\\welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-116909419 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#269</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-116909419\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","users":"<pre class=sf-dump id=sf-dump-2038075302 data-indent-pad=\"  \"><span class=sf-dump-note>array:5</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Mario</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"18 characters\">enos87@example.com</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:31:26.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>1</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Mathew Runte</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"20 characters\">luther94@example.com</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>2</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>4</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Prof. Kolby Gorczany</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"25 characters\">carter.hansen@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>3</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"13 characters\">Romaine Beier</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"24 characters\">emmie.wunsch@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>4</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Julian Schroeder</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"28 characters\">mayert.gabrielle@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-2038075302\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters(Object(Illuminate\\Routing\\Route), Array)
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(502): Illuminate\\Routing\\RouteUrlGenerator->to(Object(Illuminate\\Routing\\Route), Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(471): Illuminate\\Routing\\UrlGenerator->toRoute(Object(Illuminate\\Routing\\Route), Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('user.create', Array, true)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\resources\\views\\welcome.blade.php(21): route('user.create')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\xampp\\\\htdocs...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp\\\\htdocs...', Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp\\\\htdocs...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#57 {main}
+
+[previous exception] [object] (Illuminate\\Routing\\Exceptions\\UrlGenerationException(code: 0): Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters(Object(Illuminate\\Routing\\Route), Array)
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(502): Illuminate\\Routing\\RouteUrlGenerator->to(Object(Illuminate\\Routing\\Route), Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(471): Illuminate\\Routing\\UrlGenerator->toRoute(Object(Illuminate\\Routing\\Route), Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('user.create', Array, true)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\storage\\framework\\views\\7d78b398c97892dc73ae50ab29790f00.php(21): route('user.create')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\xampp\\\\htdocs...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp\\\\htdocs...', Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp\\\\htdocs...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#57 {main}
+"} 
+[2023-12-04 20:39:51] local.ERROR: Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. {"view":{"view":"C:\\xampp\\htdocs\\hexagonal-laravel-crud\\resources\\views\\welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-979439773 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#269</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-979439773\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","users":"<pre class=sf-dump id=sf-dump-1340132131 data-indent-pad=\"  \"><span class=sf-dump-note>array:5</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Mario</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"18 characters\">enos87@example.com</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:31:26.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>1</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Mathew Runte</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"20 characters\">luther94@example.com</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>2</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>4</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Prof. Kolby Gorczany</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"25 characters\">carter.hansen@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>3</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"13 characters\">Romaine Beier</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"24 characters\">emmie.wunsch@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+  <span class=sf-dump-index>4</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>6</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Julian Schroeder</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"28 characters\">mayert.gabrielle@example.net</span>\"
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2023-12-04T20:03:39.000000Z</span>\"
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1340132131\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters(Object(Illuminate\\Routing\\Route), Array)
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(502): Illuminate\\Routing\\RouteUrlGenerator->to(Object(Illuminate\\Routing\\Route), Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(471): Illuminate\\Routing\\UrlGenerator->toRoute(Object(Illuminate\\Routing\\Route), Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('user.create', Array, true)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\resources\\views\\welcome.blade.php(21): route('user.create')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\xampp\\\\htdocs...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp\\\\htdocs...', Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp\\\\htdocs...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#57 {main}
+
+[previous exception] [object] (Illuminate\\Routing\\Exceptions\\UrlGenerationException(code: 0): Missing required parameter for [Route: user.create] [URI: user/{id}] [Missing parameter: id]. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters(Object(Illuminate\\Routing\\Route), Array)
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(502): Illuminate\\Routing\\RouteUrlGenerator->to(Object(Illuminate\\Routing\\Route), Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php(471): Illuminate\\Routing\\UrlGenerator->toRoute(Object(Illuminate\\Routing\\Route), Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('user.create', Array, true)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\storage\\framework\\views\\7d78b398c97892dc73ae50ab29790f00.php(21): route('user.create')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\xampp\\\\htdocs...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp\\\\htdocs...', Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp\\\\htdocs...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#57 {main}
+"} 
+[2023-12-04 20:41:45] local.ERROR: Target class [Src\User\Application\CreateUserUseCase] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Src\\User\\Application\\CreateUserUseCase] does not exist. at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('Src\\\\User\\\\Applic...')
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('Src\\\\User\\\\Applic...', Array, true)
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('Src\\\\User\\\\Applic...', Array)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('Src\\\\User\\\\Applic...', Array)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1066): Illuminate\\Foundation\\Application->make('Src\\\\User\\\\Applic...')
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(982): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies(Array)
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(274): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1100): Illuminate\\Routing\\Route->getController()
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1031): Illuminate\\Routing\\Route->controllerMiddleware()
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(811): Illuminate\\Routing\\Route->gatherMiddleware()
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(793): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#40 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Src\\User\\Application\\CreateUserUseCase\" does not exist at C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:912)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(912): ReflectionClass->__construct('Src\\\\User\\\\Applic...')
+#1 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('Src\\\\User\\\\Applic...')
+#2 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('Src\\\\User\\\\Applic...', Array, true)
+#3 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('Src\\\\User\\\\Applic...', Array)
+#4 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('Src\\\\User\\\\Applic...', Array)
+#5 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1066): Illuminate\\Foundation\\Application->make('Src\\\\User\\\\Applic...')
+#6 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(982): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#7 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies(Array)
+#8 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#9 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#10 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#11 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#12 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(274): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#13 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1100): Illuminate\\Routing\\Route->getController()
+#14 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1031): Illuminate\\Routing\\Route->controllerMiddleware()
+#15 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(811): Illuminate\\Routing\\Route->gatherMiddleware()
+#16 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(793): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#17 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#19 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#38 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#40 C:\\xampp\\htdocs\\hexagonal-laravel-crud\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
+#41 {main}
+"} 
