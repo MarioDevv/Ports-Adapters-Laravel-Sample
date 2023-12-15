@@ -22,7 +22,7 @@ class ShowUser extends Controller
 
             return view('show', ['user' => $user->toArray()]);
         } catch(\Exception $e) {
-            return redirect()->route('home')->with('error', 'No se ha podido mostrar el usuario');            
+            return redirect()->route('home')->with('error', 'No se ha podido mostrar el usuario');
 
         }
     }
